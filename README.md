@@ -48,8 +48,41 @@ sudo nano .env
 ```
 Ardından aşağıdaki parametreleri bulup düzenleyelim.
 
-INSTALLER_USERNAME: kullanıcıadı
+* INSTALLER_USERNAME: kullanıcıadı
 
-INSTALLER_PASSWORD: şifre
+* INSTALLER_PASSWORD: şifre
 
-UI_ACCESS_IP: Panic'in kurulu olduğu host ip si.
+* UI_ACCESS_IP: Panic'in kurulu olduğu host ip si.
+
+Düzenleme bittikten sonra "Ctrl + x" tuşlarına basıp ardından "Y" tuşu ile dosyayı modifiye ettiğimizi onaylayalım ve "Enter" ile kaydedip çıkalım.
+
+# PANIC'i Başlatma
+
+Aşağıdaki komut ile docker imajı yaratarak PANIC'i başlatalım.
+
+```
+``bash docker-compose up -d --build
+```
+Eğer işlem sırasında bir sorun yaşarsanız aşağıdaki komutlar ile Docker imajını silip, problemi çözdükten sonra tekrar deneyebilirsiniz.
+
+```
+```bash
+docker-compose kill
+docker system prune -a --volumes
+docker-compose up -d --build
+```
+
+# Telegram Botu Yaratma ve Bildirimleri Aktif Etme
+
+Öncelikle Telegram hesabımıza @BotFather 'ı ekleyeceğiz.
+
+BotFather, yeni bot hesapları oluşturmak ve mevcut botlarınızı yönetmek için kullanabileceğiniz bir bot yazılımıdır.
+
+Botfather'ı telegrama ekledikten sonra kendi botumuzu yaratmak için "Start" a basıyoruz. Ardından aşağıdaki adımları takip ediyoruz.
+
+- "/newbot" komutu ile bot adı ve kullanıcı adı gibi bilgileri tanımlıyoruz.
+- Bot bize yarattığımız bota ulaşmak için bir link ve API Token kodu verecek. Kodu bir yere kaydediyoruz.
+- Bize verilen t.me/<kullanıcıadı> linkini kullanarak botumuza erişiyoruz ve "Start" butonuna basıyoruz.
+- 
+
+
