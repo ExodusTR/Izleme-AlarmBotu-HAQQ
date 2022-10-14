@@ -4,6 +4,8 @@ PANIC, SimplyVC tarafından tasarlanmış Cosmos düğümleri için hafif ancak 
 
 # PANIC Kurulum Rehberi
 
+![IMG_PANIC](https://user-images.githubusercontent.com/98022535/195940736-5b05008c-6388-4e9d-8cd5-7ecbf617c9d6.png)
+
 PANIC'i kurmak ve çalıştırmak için hazırsanız, başlayalım. PANIC'i kurabilmek için öncelikle bir linux işletim sistemine ve kuruluma başlamadan önce ön gereksinimlerin kurulmasına ihtiyacımız var.
 
 Öncelikle Git'in kurulu olup olmadığını kontrol edelim. Terminaliniz çıktı olarak bir Git sürümünü verirse, bu Git'in sisteminizde kurulu olduğu anlamına gelir.
@@ -14,6 +16,7 @@ Eğer git kurulu değilse aşağıdaki komut ile kuralım.
 ```
 sudo apt install git
 ```
+
 # Docker ve Docker-Compose Kurulumu
 
 Docker, uygulamalarınızı hızla derlemenize, test etmenize ve dağıtmanıza imkan tanıyan bir yazılım platformudur. Docker, yazılımları kitaplıklar, sistem araçları, kod ve çalışma zamanı dahil olmak üzere yazılımların çalışması için gerekli her şeyi içeren container adlı standartlaştırılmış birimler halinde paketler. Şimdi kuruluma geçelim.
