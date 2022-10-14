@@ -81,6 +81,8 @@ docker-compose up -d --build
 
 # Telegram Botu Yaratma ve Bildirimleri Aktif Etme
 
+![9ff2f2f01c4bd1b013](https://user-images.githubusercontent.com/98022535/195944198-16647863-090b-4871-bb64-6e4067234d36.png)
+
 Öncelikle Telegram hesabımıza @BotFather 'ı ekleyeceğiz.
 
 BotFather, yeni bot hesapları oluşturmak ve mevcut botlarınızı yönetmek için kullanabileceğiniz bir bot yazılımıdır.
