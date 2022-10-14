@@ -78,11 +78,17 @@ docker-compose up -d --build
 
 BotFather, yeni bot hesapları oluşturmak ve mevcut botlarınızı yönetmek için kullanabileceğiniz bir bot yazılımıdır.
 
-Botfather'ı telegrama ekledikten sonra kendi botumuzu yaratmak için "Start" a basıyoruz. Ardından aşağıdaki adımları takip ediyoruz.
+Botfather'ı telegrama ekledikten sonra kendi botumuzu yaratmak için ```"Start"``` a basıyoruz. Ardından aşağıdaki adımları takip ediyoruz.
 
-- "/newbot" komutu ile bot adı ve kullanıcı adı gibi bilgileri tanımlıyoruz.
+- ```"/newbot"``` komutu ile bot adı ve kullanıcı adı gibi bilgileri tanımlıyoruz.
 - Bot bize yarattığımız bota ulaşmak için bir link ve API Token kodu verecek. Kodu bir yere kaydediyoruz.
-- Bize verilen t.me/<kullanıcıadı> linkini kullanarak botumuza erişiyoruz ve "Start" butonuna basıyoruz.
-- 
+- Bize verilen ```"t.me/<kullanıcıadı>"``` linkini kullanarak botumuza erişiyoruz ve ```"Start"``` butonuna basıyoruz.
+- Ardından bize verilen token kodunu ```<token>``` kısmına yazarak şu linkten ```"api.telegram.org/bot<token>/getUpdates"``` devam ediyoruz. Böylece bota gönderilen mesajlar da dahil olmak üzere bot aktivitelerinin bir listesine ulaşıyoruz.
+- Listede ```"Start"``` düğmesine basılarak oluşturulan en az bir mesaj görüyor olmalısınız. Görmüyorsanız, ```"/start"``` komutunu bota gönderin. ```"Chat"``` bölümündeki ```"id"``` bilgisini düzeltin.
+- Böylece botumuzu yaratmayı tamamlamış olduk ve kullanmaya hazırız.
 
+# İzleme ve Uyarıları Yapılandırma
 
+Düğüm izleme ve bildirim kanallarının yapılandırılması için ```"https://{UI_ACCESS_IP}:8000"``` adresine giriyoruz. Yetkilendirme için .env dosyasında belirttiğimiz ```"INSTALLER_USERNAME"``` ve ```"INSTALLER_PASSWORD"``` kullanıyoruz.
+
+Yetkilendirmeyi tamamladıktan sonra izleme ve bildirim sistemimiz çalışmaya başlayacaktır.
