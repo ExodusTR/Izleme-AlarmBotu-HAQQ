@@ -1,6 +1,6 @@
 ![islm1](https://user-images.githubusercontent.com/98022535/195943346-ea816c4b-bb4f-4df0-87b5-b21a0340ab75.jpg)
 
-# Izleme-AlarmBotu-HAQQ
+# Izleme ve Alarm Botu - HAQQ
 
 PANIC, SimplyVC tarafından tasarlanmış Cosmos düğümleri için hafif ancak güçlü bir açık kaynaklı izleme ve uyarı çözümüdür. Cosmos SDK kullanılarak oluşturulan tüm zincirlerle uyumludur. Araç, önemli uyarılar için telefon aramaları ve uyarı cihazınız üzerinde daha fazla kontrol için Telegram komutları gibi harika ve kullanışlı özellikler hariç tutulmadan, kullanıcı dostu olması düşünülerek oluşturulmuştur.
 
