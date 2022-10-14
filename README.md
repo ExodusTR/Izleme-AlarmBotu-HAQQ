@@ -21,6 +21,8 @@ sudo apt install git
 
 # Docker ve Docker-Compose Kurulumu
 
+![Docker_w_Linuksie](https://user-images.githubusercontent.com/98022535/195943792-b09238a0-997a-4ad6-8da5-300659261dcc.png)
+
 Docker, uygulamalarınızı hızla derlemenize, test etmenize ve dağıtmanıza imkan tanıyan bir yazılım platformudur. Docker, yazılımları kitaplıklar, sistem araçları, kod ve çalışma zamanı dahil olmak üzere yazılımların çalışması için gerekli her şeyi içeren container adlı standartlaştırılmış birimler halinde paketler. Şimdi kuruluma geçelim.
 
 Yine önceki gibi aşağıdaki komutlar yardımıyla sistemimizde docker kurulu olup olmadığını kontrol edelim.
