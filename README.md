@@ -97,3 +97,5 @@ Botfather'ı telegrama ekledikten sonra kendi botumuzu yaratmak için ```"Start"
 Düğüm izleme ve bildirim kanallarının yapılandırılması için ```"https://{UI_ACCESS_IP}:8000"``` adresine giriyoruz. Yetkilendirme için .env dosyasında belirttiğimiz ```"INSTALLER_USERNAME"``` ve ```"INSTALLER_PASSWORD"``` kullanıyoruz.
 
 Yetkilendirmeyi tamamladıktan sonra izleme ve bildirim sistemimiz çalışmaya başlayacaktır.
+
+![islm2](https://user-images.githubusercontent.com/98022535/195943365-1dcedf17-463b-455f-b6aa-48efa90e20c1.jpg)
